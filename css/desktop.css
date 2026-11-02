@@ -1,0 +1,319 @@
+html[data-icon-size="small"] {
+  --icon-cell: 76px;
+  --icon-img: 24px;
+}
+
+html[data-icon-size="large"] {
+  --icon-cell: 112px;
+  --icon-img: 48px;
+}
+
+#desktop {
+  position: fixed;
+  inset: 0;
+  bottom: var(--taskbar-total);
+  overflow: hidden;
+  background-color: var(--bg-desktop);
+  background-image:
+    linear-gradient(rgb(5 10 25 / 0.55), rgb(5 10 25 / 0.55)),
+    url("../assets/images/wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#desktop[data-wallpaper="gradient"] {
+  background-image: radial-gradient(circle at 30% 20%, #1b4aa8 0%, #12306b 45%, #0b1220 100%);
+}
+
+#desktop[data-wallpaper="solid"] {
+  background-image: none;
+  background-color: #0e2a5e;
+}
+
+html[data-effects="on"] #desktop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, transparent 55%, rgb(0 0 0 / 0.45) 100%);
+  pointer-events: none;
+}
+
+.desktop-brand {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgb(255 255 255 / 0.35);
+  pointer-events: none;
+  user-select: none;
+}
+
+#particles {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#icons {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: 12px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(auto-fill, var(--icon-cell));
+  grid-auto-columns: var(--icon-cell);
+  align-content: start;
+  justify-content: start;
+  gap: 4px;
+}
+
+.desktop-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 4px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: var(--fs-ui);
+  text-shadow: 0 1px 2px #000;
+  cursor: pointer;
+}
+
+.desktop-icon:hover {
+  background: rgb(59 130 246 / 0.18);
+}
+
+.desktop-icon.selected,
+.desktop-icon:focus-visible {
+  background: rgb(59 130 246 / 0.35);
+  border-color: rgb(91 155 255 / 0.6);
+}
+
+.icon-lg {
+  width: var(--icon-img);
+  height: var(--icon-img);
+  margin-bottom: 2px;
+}
+
+#taskbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  height: var(--taskbar-total);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: linear-gradient(#2d6be4, var(--bg-taskbar));
+  border-top: 1px solid var(--border-light);
+}
+
+#start-button {
+  padding: 0 22px 0 14px;
+  border: 0;
+  border-radius: 0 14px 14px 0;
+  background: linear-gradient(var(--green-light), var(--green-dark));
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 0.5);
+  cursor: pointer;
+}
+
+#start-button:hover,
+#start-button[aria-expanded="true"] {
+  filter: brightness(0.88);
+}
+
+#task-list {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+  padding: 4px 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.task-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 1 160px;
+  min-width: 0;
+  padding: 0 10px;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  background: linear-gradient(#2b5bb5, #1b3f86);
+  color: #fff;
+  font: inherit;
+  font-size: var(--fs-ui);
+  cursor: pointer;
+}
+
+.task-button.active {
+  background: linear-gradient(#173474, #1f4aa0);
+  box-shadow: inset 0 2px 4px rgb(0 0 0 / 0.5);
+}
+
+.task-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#tray {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  border-left: 1px solid var(--border-light);
+  background: linear-gradient(#173474, #0e2552);
+  font-size: var(--fs-ui);
+}
+
+#clock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.25;
+}
+
+#tray-volume {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+
+#tray-volume:hover {
+  background: rgb(255 255 255 / 0.15);
+}
+
+#start-menu {
+  position: fixed;
+  left: 0;
+  bottom: var(--taskbar-total);
+  z-index: 1001;
+  width: min(320px, 100vw);
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  border-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  background: var(--bg-window);
+  box-shadow: 0 -4px 24px rgb(0 0 0 / var(--shadow-strength));
+}
+
+.start-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: linear-gradient(var(--bg-titlebar-start), var(--bg-titlebar-end));
+  font-size: var(--fs-heading);
+  font-weight: 700;
+}
+
+.start-header img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(255 255 255 / 0.3);
+  border-radius: 4px;
+  background: var(--bg-deep);
+  object-fit: cover;
+}
+
+#start-list {
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+}
+
+.start-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--fs-menu);
+  text-align: left;
+  cursor: pointer;
+}
+
+.start-item:hover,
+.start-item:focus-visible {
+  background: var(--accent-dark);
+}
+
+#enter-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background: radial-gradient(circle at 50% 35%, #1b3f86 0%, var(--bg-deep) 70%);
+}
+
+#enter-screen h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 5vw, 2.6rem);
+  letter-spacing: 0.04em;
+}
+
+.enter-avatar {
+  width: 96px;
+  height: 96px;
+  border: 3px solid rgb(255 255 255 / 0.3);
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--bg-deep);
+}
+
+#enter-button {
+  padding: 10px 28px;
+  border: 1px solid rgb(255 255 255 / 0.5);
+  border-radius: 6px;
+  background: linear-gradient(var(--green-light), var(--green-dark));
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#enter-button:hover {
+  filter: brightness(0.88);
+}
+
+.enter-language {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+}

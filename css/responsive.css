@@ -1,0 +1,71 @@
+@media (pointer: coarse) {
+  :root {
+    --fs-ui: 14px;
+    --fs-menu: 15px;
+    --fs-title: 15px;
+    --fs-heading: 17px;
+  }
+
+  .titlebar-controls button {
+    min-width: 40px;
+    min-height: 32px;
+  }
+
+  .task-button {
+    min-height: 40px;
+  }
+
+  #tray-volume {
+    min-width: 40px;
+    min-height: 40px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #icons {
+    grid-auto-flow: row;
+    grid-template-rows: none;
+    grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+    grid-auto-columns: auto;
+    grid-auto-rows: 96px;
+    padding: 12px 8px;
+    overflow-y: auto;
+  }
+
+  .window {
+    inset: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0;
+    resize: none;
+  }
+
+  .titlebar {
+    height: 40px;
+  }
+
+  .titlebar-controls [data-action="maximize"] {
+    display: none;
+  }
+
+  .task-button {
+    flex: 0 0 auto;
+    min-width: 44px;
+    justify-content: center;
+  }
+
+  .task-label,
+  #clock-date {
+    display: none;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 140px;
+  }
+}

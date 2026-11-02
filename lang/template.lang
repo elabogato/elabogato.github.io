@@ -1,0 +1,150 @@
+# ElAbogato OS - translation template
+#
+# How to translate:
+# 1. Translate only the text AFTER each = sign. Do not change the keys on the left.
+# 2. Keep placeholders such as {title}, {name}, {language} and {author} unchanged.
+# 3. Save the file as <your language code>.lang (for example fr.lang).
+# 4. Send it to ElAbogato: upload it to the lang folder of the GitHub repository
+#    or send it by Discord direct message together with an icon image so you can be credited.
+#
+# Translator name or nickname:
+# Language name written in your own language:
+# Language code:
+
+enter.button=ENTER DESKTOP
+enter.language=Language
+
+taskbar.start=Start
+taskbar.windows=Open windows
+taskbar.mute=Mute
+startmenu.label=Start menu
+
+window.minimize=Minimize
+window.maximize=Maximize
+window.restore=Restore
+window.close=Close
+
+app.about.title=About Me.exe
+app.about.menu=About Me
+app.projects.title=Projects.exe
+app.projects.menu=Projects
+app.socials.title=Socials.exe
+app.socials.menu=Socials
+app.media.title=Media Player.exe
+app.media.menu=Media
+app.games.title=Games.exe
+app.games.menu=Games
+app.support.title=Support.exe
+app.support.menu=Support
+app.settings.title=Control Panel.exe
+app.settings.menu=Settings
+app.credits.title=Credits.exe
+
+common.loading=Loading...
+common.loadError=Could not load the data. If you opened the page straight from your disk, use a local server.
+common.empty=Nothing here yet.
+common.copied=Copied
+common.copyFailed=Could not copy
+
+about.avatarAlt=Avatar of {name}
+about.activities=Creative activities
+about.skills=Skills and interests
+about.journey=Journey
+
+projects.category=Category
+projects.all=All
+projects.none=There are no projects in this category.
+projects.role=Role
+projects.view=View project
+
+category.music=Music
+category.gamedev=Game development
+category.fnf-mods=Friday Night Funkin' mods
+category.programming=Programming
+category.collabs=Collaborations
+category.other=Other projects
+
+status.in-development=In development
+status.published=Published
+status.paused=Paused
+
+games.status=Status
+games.all=All
+games.none=There are no games to show.
+games.official=Official site
+gamestatus.playing=Playing
+gamestatus.finished=Finished
+gamestatus.favorite=Favorite
+
+socials.open=Open
+socials.copyLink=Copy link
+socials.copyCredits=Copy credits card
+
+media.videos=Featured videos
+media.music=Music, remixes and mixes
+media.posts=Recent posts
+media.platforms=My platforms
+
+support.how=How to support me
+support.button=Support on Ko-fi
+support.note=Payments are processed directly on Ko-fi; this website does not handle payments.
+
+credits.copy=Copy credits
+credits.standalone=Open standalone page
+credits.contact=Contact
+credits.translations=Translations
+credits.translatedBy={language} - by {author}
+credits.pageTitle=Credits - ElAbogato
+
+audio.playing=Playing: {title}
+audio.paused=Paused: {title}
+audio.missing=Audio file not found.
+
+panel.audio=Audio Settings
+panel.volume=Master volume
+panel.mute=Mute
+panel.musicEnabled=Background music enabled
+panel.play=Play
+panel.pause=Pause
+panel.prev=« Previous
+panel.next=Next »
+panel.uiSounds=Interface sounds
+
+panel.appearance=Appearance Settings
+panel.darkTheme=Dark theme (always on)
+panel.shadows=Shadow intensity
+panel.transparency=Window transparency
+panel.wallpaper=Desktop background
+panel.wallpaperDefault=Default image
+panel.wallpaperGradient=Blue gradient
+panel.wallpaperSolid=Solid color
+
+panel.animation=Animation Settings
+panel.animNormal=Normal animations
+panel.animReduced=Reduced animations
+panel.animOff=Animations off
+panel.effects=Extra visual effects
+
+panel.desktop=Desktop Settings
+panel.showClock=Show clock
+panel.particles=Show particles
+panel.iconSize=Icon size
+panel.iconSmall=Small
+panel.iconMedium=Medium
+panel.iconLarge=Large
+panel.reset=Restore default settings
+
+panel.language=Language Settings
+panel.languageLabel=Language
+panel.helpTranslate=Help translate this site
+
+translate.title=Help translate
+translate.question=Would you like to help translate this website into your language?
+translate.yes=Yes, download the template
+translate.no=No, thanks
+translate.downloaded=The template file (template.lang) has been downloaded.
+translate.step1=Translate the text after each = sign. Do not change the keys on the left.
+translate.step2=Save the file with your language code as its name, for example fr.lang.
+translate.stepRepo=Upload it to the GitHub repository, inside the lang folder:
+translate.stepDiscord=Or send it by Discord direct message, together with an icon image so you can be credited properly:
+translate.close=Close

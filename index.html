@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="ElAbogato's personal website: projects, music, games and links in a desktop-style interface.">
+  <meta property="og:title" content="elabogato.github.io">
+  <meta property="og:description" content="ElAbogato's personal website: projects, music, games and links in a desktop-style interface.">
+  <meta property="og:image" content="https://elabogato.github.io/assets/images/avatar.png">
+  <meta property="og:url" content="https://elabogato.github.io/">
+  <title>ElAbogato - webpage</title>
+  <link rel="icon" href="assets/icons/favicon.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/windows.css">
+  <link rel="stylesheet" href="css/apps.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div id="enter-screen">
+    <img class="enter-avatar" src="assets/images/avatar.png" alt="">
+    <h1>Welcome!</h1>
+    <button type="button" id="enter-button" data-i18n="enter.button">ENTER DESKTOP</button>
+    <label class="enter-language">
+      <span data-i18n="enter.language">Language</span>
+      <select id="enter-language"></select>
+    </label>
+  </div>
+
+  <main id="desktop" inert>
+    <div class="desktop-brand">ElAbogato</div>
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <div id="icons"></div>
+    <div id="windows"></div>
+  </main>
+
+  <nav id="start-menu" data-i18n-attr="aria-label:startmenu.label" aria-label="Start menu" hidden>
+    <div class="start-header">
+      <img src="assets/images/avatar.png" alt="" width="40" height="40">
+      <span>ElAbogato</span>
+    </div>
+    <ul id="start-list"></ul>
+  </nav>
+
+  <footer id="taskbar" inert>
+    <button type="button" id="start-button" aria-expanded="false" aria-controls="start-menu" data-i18n="taskbar.start">Start</button>
+    <div id="task-list" role="toolbar" data-i18n-attr="aria-label:taskbar.windows" aria-label="Open windows"></div>
+    <div id="tray">
+      <button type="button" id="tray-volume" data-i18n-attr="aria-label:taskbar.mute" aria-label="Mute" aria-pressed="false">
+        <img class="icon-sm" src="assets/icons/player/volume.png" alt="">
+      </button>
+      <div id="clock">
+        <span id="clock-time"></span>
+        <span id="clock-date"></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/apps.js" defer></script>
+  <script src="js/settings.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/audio.js" defer></script>
+  <script src="js/windows.js" defer></script>
+  <script src="js/desktop.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+#windows {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.window {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+  min-height: 160px;
+  overflow: hidden;
+  resize: both;
+  border: 3px solid #2b3956;
+  border-radius: 8px 8px 0 0;
+  background: rgb(20 29 48 / var(--window-opacity));
+  box-shadow: 0 8px 24px rgb(0 0 0 / var(--shadow-strength));
+  pointer-events: auto;
+  animation: window-in 0.12s ease-out;
+}
+
+.window.active {
+  border-color: var(--bg-titlebar-end);
+}
+
+html[data-effects="on"] .window.active {
+  box-shadow:
+    0 0 0 1px var(--accent),
+    0 0 28px rgb(59 130 246 / 0.4),
+    0 8px 24px rgb(0 0 0 / var(--shadow-strength));
+}
+
+.window.minimized {
+  display: none;
+}
+
+.window.maximized {
+  inset: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  border-radius: 0;
+  resize: none;
+}
+
+html[data-animations="reduced"] .window {
+  animation-name: fade-in;
+}
+
+.titlebar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 32px;
+  padding: 4px 4px 4px 8px;
+  background: linear-gradient(#3a4a6b, #27324a);
+  user-select: none;
+  touch-action: none;
+}
+
+.window.active .titlebar {
+  background: linear-gradient(var(--bg-titlebar-start), var(--bg-titlebar-end));
+}
+
+.titlebar-text {
+  flex: 1;
+  overflow: hidden;
+  font-family: var(--font-title);
+  font-size: var(--fs-title);
+  font-weight: 700;
+  text-overflow: ellipsis;
+  text-shadow: 1px 1px 0 rgb(0 0 0 / 0.4);
+  white-space: nowrap;
+}
+
+.titlebar-controls {
+  display: flex;
+  gap: 3px;
+}
+
+.titlebar-controls button {
+  width: 28px;
+  height: 24px;
+  border: 1px solid rgb(255 255 255 / 0.5);
+  border-radius: 4px;
+  background: linear-gradient(var(--bg-titlebar-start), var(--accent-dark));
+  color: #fff;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.titlebar-controls button[data-action="close"] {
+  background: linear-gradient(#c94533, var(--close));
+}
+
+.titlebar-controls button:hover {
+  filter: brightness(0.88);
+}
+
+.window-content {
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+  background: rgb(20 29 48 / var(--window-opacity));
+}
+
+@keyframes window-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}

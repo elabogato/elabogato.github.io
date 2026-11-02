@@ -1,0 +1,141 @@
+# ElAbogato - Español
+# Formato: clave=valor (UTF-8). Las líneas que empiezan por # son comentarios.
+# Usa \n para un salto de línea. No cambies los marcadores como {title}.
+
+enter.button=ENTRAR AL ESCRITORIO
+enter.language=Idioma
+
+taskbar.start=Inicio
+taskbar.windows=Ventanas abiertas
+taskbar.mute=Silenciar
+startmenu.label=Menú Inicio
+
+window.minimize=Minimizar
+window.maximize=Maximizar
+window.restore=Restaurar
+window.close=Cerrar
+
+app.about.title=Sobre Mí.exe
+app.about.menu=Sobre mí
+app.projects.title=Proyectos.exe
+app.projects.menu=Proyectos
+app.socials.title=Redes.exe
+app.socials.menu=Redes
+app.media.title=Reproductor.exe
+app.media.menu=Multimedia
+app.games.title=Juegos.exe
+app.games.menu=Juegos
+app.support.title=Apoyo.exe
+app.support.menu=Apoyo
+app.settings.title=Panel de Control.exe
+app.settings.menu=Configuración
+app.credits.title=Créditos.exe
+
+common.loading=Cargando...
+common.loadError=No se pudieron cargar los datos. Si abriste la página directamente desde el disco, usa un servidor local.
+common.empty=Todavía no hay nada aquí.
+common.copied=Copiado
+common.copyFailed=No se pudo copiar
+
+about.avatarAlt=Avatar de {name}
+about.activities=Actividades creativas
+about.skills=Habilidades e intereses
+about.journey=Trayectoria
+
+projects.category=Categoría
+projects.all=Todas
+projects.none=No hay proyectos en esta categoría.
+projects.role=Participación
+projects.view=Ver proyecto
+
+category.music=Música
+category.gamedev=Desarrollo de videojuegos
+category.fnf-mods=Mods de Friday Night Funkin'
+category.programming=Programación
+category.collabs=Colaboraciones
+category.other=Otros proyectos
+
+status.in-development=En desarrollo
+status.published=Publicado
+status.paused=Pausado
+
+games.status=Estado
+games.all=Todos
+games.none=No hay juegos para mostrar.
+games.official=Sitio oficial
+gamestatus.playing=Jugando
+gamestatus.finished=Terminado
+gamestatus.favorite=Favorito
+
+socials.open=Abrir
+socials.copyLink=Copiar enlace
+socials.copyCredits=Copiar ficha de créditos
+
+media.videos=Vídeos destacados
+media.music=Música, remixes y mezclas
+media.posts=Publicaciones recientes
+media.platforms=Mis plataformas
+
+support.how=Cómo apoyarme
+support.button=Apoyar en Ko-fi
+support.note=Los pagos se procesan directamente en Ko-fi; esta web no gestiona pagos.
+
+credits.copy=Copiar créditos
+credits.standalone=Abrir página independiente
+credits.contact=Contacto
+credits.translations=Traducciones
+credits.translatedBy={language} - por {author}
+credits.pageTitle=Créditos - ElAbogato
+
+audio.playing=Reproduciendo: {title}
+audio.paused=En pausa: {title}
+audio.missing=No se encontró el archivo de audio.
+
+panel.audio=Ajustes de audio
+panel.volume=Volumen general
+panel.mute=Silenciar
+panel.musicEnabled=Música de fondo activada
+panel.play=Reproducir
+panel.pause=Pausar
+panel.prev=« Anterior
+panel.next=Siguiente »
+panel.uiSounds=Sonidos de interfaz
+
+panel.appearance=Ajustes de apariencia
+panel.darkTheme=Tema oscuro (siempre activo)
+panel.shadows=Intensidad de sombras
+panel.transparency=Transparencia de ventanas
+panel.wallpaper=Fondo de escritorio
+panel.wallpaperDefault=Imagen predeterminada
+panel.wallpaperGradient=Degradado azul
+panel.wallpaperSolid=Color liso
+
+panel.animation=Ajustes de animación
+panel.animNormal=Animaciones normales
+panel.animReduced=Animaciones reducidas
+panel.animOff=Animaciones desactivadas
+panel.effects=Efectos visuales adicionales
+
+panel.desktop=Ajustes del escritorio
+panel.showClock=Mostrar reloj
+panel.particles=Mostrar partículas
+panel.iconSize=Tamaño de iconos
+panel.iconSmall=Pequeño
+panel.iconMedium=Mediano
+panel.iconLarge=Grande
+panel.reset=Restaurar configuración predeterminada
+
+panel.language=Ajustes de idioma
+panel.languageLabel=Idioma
+panel.helpTranslate=Ayudar a traducir esta web
+
+translate.title=Ayuda a traducir
+translate.question=¿Te gustaría ayudar a traducir esta página web a tu idioma?
+translate.yes=Sí, descargar la plantilla
+translate.no=No, gracias
+translate.downloaded=Se ha descargado el archivo de plantilla (template.lang).
+translate.step1=Traduce el texto que hay después de cada signo =. No cambies las claves de la izquierda.
+translate.step2=Guarda el archivo con el código de tu idioma como nombre, por ejemplo fr.lang.
+translate.stepRepo=Súbelo al repositorio de GitHub, dentro de la carpeta lang:
+translate.stepDiscord=O envíalo por mensaje directo de Discord, junto con una imagen de icono para acreditarte correctamente:
+translate.close=Cerrar

@@ -1,0 +1,20 @@
+{
+  "categories": ["music", "gamedev", "fnf-mods", "programming", "collabs", "other"],
+  "projects": [
+    {
+      "name": "elabogato.github.io",
+      "category": "programming",
+      "image": "",
+      "description": {
+        "en": "This very personal website, built with HTML, CSS and JavaScript.",
+        "es": "Esta misma página web personal, hecha con HTML, CSS y JavaScript."
+      },
+      "role": {
+        "en": "Full development",
+        "es": "Desarrollo completo"
+      },
+      "status": "in-development",
+      "url": "https://github.com/ElAbogato/elabogato.github.io"
+    }
+  ]
+}

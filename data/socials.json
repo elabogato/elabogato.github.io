@@ -1,0 +1,58 @@
+[
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "icon": "assets/icons/socials/youtube.png",
+    "username": "@ElAbogato3000",
+    "url": "https://youtube.com/@elabogato3000?si=4vP3z19aUReiOod6",
+    "description": ""
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "icon": "assets/icons/socials/github.png",
+    "username": "ElAbogato",
+    "url": "https://github.com/ElAbogato",
+    "description": ""
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud",
+    "icon": "assets/icons/socials/soundcloud.png",
+    "username": "I don't have this social yet.",
+    "url": "https://soundcloud.com",
+    "description": ""
+  },
+  {
+    "id": "bandlab",
+    "name": "BandLab",
+    "icon": "assets/icons/socials/bandlab.png",
+    "username": "I don't have this social yet.",
+    "url": "https://www.bandlab.com",
+    "description": ""
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "icon": "assets/icons/socials/discord.png",
+    "username": "ajdestroyer200",
+    "url": "https://discord.com/users/1466875774631149629",
+    "description": ""
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "icon": "assets/icons/socials/instagram.png",
+    "username": "I don't have this social yet.",
+    "url": "https://www.instagram.com",
+    "description": ""
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "icon": "assets/icons/socials/tiktok.png",
+    "username": "ajdestroyer200",
+    "url": "https://www.tiktok.com/@ajdestroyer200?is_from_webapp=1&sender_device=pc",
+    "description": ""
+  }
+]

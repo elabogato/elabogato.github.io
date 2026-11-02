@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Plants vs. Zombies",
+    "platform": "PC",
+    "description": {
+      "en": "What do you do when there’s a zombie on your lawn? If you answered 'start planting flowers to defeat it,' then you’ve likely heard of Plants vs. Zombies. Armed with dozens of zombie-zapping plants, from the classic peashooter to the devious cherry bomb, you’ll need to think fast and plant faster to stop all types of zombies dead in their tracks. And just when you think you’ve got a handle on things, obstacles like a setting sun, creeping fog, and a swimming pool add to the challenge. With 5 game modes to dig into, the fun never dies!",
+      "es": "¿Qué haces cuando hay un zombi en tu jardín? Si respondiste 'empezar a plantar flores para derrotarlo', es probable que hayas oído hablar de Plants vs. Zombies. Armado con decenas de plantas capaces de acabar con los zombis —desde el clásico lanzaguisantes hasta la astuta cereza explosiva—, tendrás que pensar rápido y plantar aún más rápido para detener en seco a todo tipo de zombis. Y justo cuando crees que ya lo tienes todo bajo control, aparecen obstáculos como el atardecer, una niebla espesa o incluso una piscina, lo que añade aún más dificultad al desafío. ¡Con 5 modos de juego en los que sumergirte, la diversión nunca muere!"
+    },
+    "status": "finished",
+    "cover": "assets/icons/pvz.png",
+    "url": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies"
+  },
+  {
+    "name": "Minecraft",
+    "platform": "PC",
+    "description": {
+      "en": "that little block game.",
+      "es": "ese jueguito de cubos."
+    },
+    "status": "finished",
+    "cover": "assets/icons/mc.png",
+    "url": "https://www.minecraft.net/en-us"
+  },
+  {
+    "name": "Super Smash Bros. Ultimate",
+    "platform": "Switch",
+    "description": {
+      "en": "I'll kick your butt in smash bros",
+      "es": "Iiiiii te chingue"
+    },
+    "status": "playing",
+    "cover": "assets/icons/smash.png",
+    "url": "https://www.smashbros.com/en_US/"
+  },
+  {
+    "name": "Custom Tracks Grand Prix - 7 (CTGP7)",
+    "platform": "Switch",
+    "description": {
+      "en": "modded mk7",
+      "es": "mariano corridas modded"
+    },
+    "status": "playing",
+    "cover": "assets/icons/ctgp7.png",
+    "url": "https://ctgp-7.github.io/"
+  },
+  {
+    "name": "Fornite",
+    "platform": "PC",
+    "description": {
+      "en": "fornite",
+      "es": "por que no cambias a la escopeta"
+    },
+    "status": "playing",
+    "cover": "assets/icons/fornite.png",
+    "url": "https://store.epicgames.com/p/fortnite"
+  },
+  {
+    "name": "Friday Night Funkin'",
+    "platform": "PC and iOS",
+    "description": {
+      "en": "gettin freaky on a friday night, yeah",
+      "es": "calambre en la pija"
+    },
+    "status": "playing",
+    "cover": "assets/icons/fnf.png",
+    "url": "https://ninja-muffin24.itch.io/funkin"
+  },
+  {
+    "name": "Among Us",
+    "platform": "iOS",
+    "description": {
+      "en": "sus",
+      "es": "es naranja, lo estoy viendo desde su movil"
+    },
+    "status": "playing",
+    "cover": "assets/icons/mongus.png",
+    "url": "https://www.innersloth.com/games/among-us/"
+  },
+  {
+    "name": "Geometry Dash",
+    "platform": "iOS",
+    "description": {
+      "en": "gd",
+      "es": "tienes 14, activa cam"
+    },
+    "status": "playing",
+    "cover": "assets/icons/gd.png",
+    "url": "https://www.geometrydash.com/"
+  }
+]

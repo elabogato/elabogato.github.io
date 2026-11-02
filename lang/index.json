@@ -1,0 +1,6 @@
+{
+  "languages": [
+    { "code": "en", "name": "English", "author": "ElAbogato", "icon": "assets/images/avatar.png" },
+    { "code": "es", "name": "Español", "author": "ElAbogato", "icon": "assets/images/avatar.png" }
+  ]
+}

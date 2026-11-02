@@ -1,0 +1,70 @@
+{
+  "name": "ElAbogato",
+  "website": "https://elabogato.github.io/",
+  "repoUrl": "https://github.com/ElAbogato/elabogato.github.io",
+  "avatar": "assets/images/avatar.png",
+  "contactEmail": "",
+  "music": [
+    { "src": "assets/audio/civilization.mp3", "title": "Justice - Civilization" },
+    { "src": "assets/audio/storyseeker.mp3", "title": "STEREO DIVE FOUNDATION - storyseeker" },
+    { "src": "assets/audio/nightvision.mp3", "title": "Daft Punk - Nightvision" }
+  ],
+  "about": {
+    "tagline": {
+      "en": "Creating sounds, building ideas, breaking limits.",
+      "es": "Creando sonidos, construyendo ideas, romper límites."
+    },
+
+    "description": {
+      "en": "I am a multidisciplinary digital creator with an interest in music production, programming, and the development of creative projects. I enjoy experimenting with new ideas, combining different disciplines, and transforming concepts into tangible projects. I am defined by my curiosity, creativity, and willingness to constantly learn.",
+      "es": "Soy un creador digital multidisciplinario interesado en la producción musical, la programación y el desarrollo de proyectos creativos. Me gusta experimentar con nuevas ideas, combinar diferentes disciplinas y transformar conceptos en proyectos reales. Me caracterizo por mi curiosidad, creatividad y disposición para aprender constantemente."
+    },
+
+    "activities": [
+      { "en": "Music", "es": "Música" },
+      { "en": "Game development", "es": "Desarrollo de videojuegos" },
+      { "en": "Friday Night Funkin' mods", "es": "Mods de Friday Night Funkin'" },
+      { "en": "Programming", "es": "Programación" }
+    ],
+
+    "skills": [
+      { "en": "Music production using FL Studio, FL Studio Mobile, and BandLab. Sound design, remixing, sampling, and electronic composition. Programming with Python and Haxe; video game development using Flixel and Psych Engine, including engine customization and the creation of new features. Web development with HTML and CSS. Project management, coordination of collaborators, audiovisual design, and content creation.", 
+      "es": "Producción musical con FL Studio, FL Studio Mobile y BandLab. Diseño sonoro, remixing, sampling y composición electrónica. Programación con Python y Haxe, desarrollo de videojuegos con Flixel y Psych Engine, personalización de motores y creación de funcionalidades. Desarrollo web con HTML y CSS. Gestión de proyectos, coordinación de colaboradores, diseño audiovisual y creación de contenido"
+    }
+    ],
+    "journey": {
+      "en": "My journey in the creative and technological sphere began with an exploration of music production, experimenting with tools like BandLab and FL Studio. This evolved into a specific interest in electronic music, remixing, and sound design, drawing inspiration from artists such as Daft Punk, Justice, Modjo, and Stardust. Concurrently, I began exploring the world of programming and video game development—notably within the *Friday Night Funkin'* community—where I have worked on independent projects, engine modifications, the implementation of custom features, and the creation of gameplay experiences. I have also been involved in organizing and coordinating creative communities, leveraging both technical and management skills to drive collaborative projects. Currently, I continue to expand my expertise in programming, web development, design, and audiovisual production, while building my own identity as a digital creator under the name 'ElAbogato', with the goal of developing projects that integrate music, technology, and creativity.",
+      "es": "Mi camino en el ámbito creativo y tecnológico comenzó con la exploración de la producción musical, experimentando con herramientas como BandLab y FL Studio hasta desarrollar un interés particular por la música electrónica, el remixing y el diseño sonoro, tomando inspiración de artistas como Daft Punk, Justice, Modjo y Stardust. Paralelamente, comencé a explorar el mundo de la programación y el desarrollo de videojuegos, especialmente dentro de la comunidad de Friday Night Funkin', donde he trabajado en proyectos independientes, modificación de motores, implementación de funcionalidades personalizadas y desarrollo de experiencias de juego. También he participado en la organización y coordinación de comunidades creativas, combinando habilidades técnicas y de gestión para impulsar proyectos colaborativos. Actualmente, continúo ampliando mis conocimientos en programación, desarrollo web, diseño y producción audiovisual, mientras construyo una identidad propia como creador digital bajo el nombre de ElAbogato, con el objetivo de desarrollar proyectos que integren música, tecnología y creatividad."
+    }
+  },
+
+  "support": {
+    "kofiUrl": "https://ko-fi.com/ajdestroyer20",
+    "intro": {
+      "en": "If you like what I do, you can support my creative work on Ko-fi.",
+      "es": "Si te gusta lo que hago, puedes apoyar mi trabajo creativo en Ko-fi."
+    },
+    "howTo": [
+      {
+        "en": "Open my Ko-fi profile with the button below.",
+        "es": "Entra a mi perfil de Ko-fi con el botón de abajo."
+      },
+      {
+        "en": "Choose a one-time donation or become a supporter.",
+        "es": "Elige una donación única o hazte seguidor."
+      },
+      {
+        "en": "Sharing my projects is also a great way to help.",
+        "es": "Compartir mis proyectos también es una gran forma de ayudar."
+      }
+    ],
+    "goal": null
+  },
+
+  "media": {
+    "videos": [],
+    "music": [],
+    "posts": [],
+    "platforms": ["youtube", "soundcloud", "bandlab", "tiktok"]
+  }
+}
